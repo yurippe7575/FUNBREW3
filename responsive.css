@@ -285,7 +285,17 @@ padding-top: 30px;
   
 }
 
+.service_icon > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.service > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .service_icon1 {
   width: 45%;
@@ -293,7 +303,15 @@ padding-top: 30px;
   margin: 0 auto;
   padding-bottom: 30px;
 }
+.service_icon > div > img {
+  height: 200px;
+  width: 200px;
+}
 
+.service > div > img {
+  height: 200px;
+  width: 200px;
+}
 
 .service_icon2 {
   width: 45%;
@@ -354,7 +372,7 @@ padding-bottom: 100px;
 
 .z-index{
 	position: relative;	/* 位置指定 */
-	height: 1300px; 		/* 高さ指定 */
+	height: auto; 		/* 高さ指定 */
 	width: 90%;		/* 幅指定 */
 	margin: 0 auto;		/* センター */
   padding-bottom: 80px;
@@ -362,7 +380,7 @@ padding-bottom: 100px;
 }
 
 .z-index_text {
-    height:  1300px;             /* 高さ指定 */
+    height: auto;             /* 高さ指定 */
     width:  90%;              /* 幅指定 */
     background-color: #FFF;  /* 背景色指定 */
     position:  absolute;        /* 位置指定 */
@@ -370,7 +388,7 @@ padding-bottom: 100px;
    
 }
 .z-index_bg {
-    height:  1308px;            /* 高さ指定 */
+    height: auto;            /* 高さ指定 */
     width:  90%;              /* 幅指定 */
     background-color: #FE8C1E;  /* 背景色指定 */
     position:  absolute;        /* 位置指定 */
@@ -385,7 +403,7 @@ padding-bottom: 100px;
 
 
 .omoi_content{
-  height: 800px;
+  height: auto;
   width: 75%;
   padding: 25px 25px 45px;
   margin: 0 auto;
@@ -411,14 +429,14 @@ padding-bottom: 100px;
     padding:10px 15px;
     border: none;
     outline: 0;
-    /* transition: .0.5s;
-    -erbkit-transition: .0.5s; */
+    transition: .0.5s;
+    -erbkit-transition: .0.5s;
     }
      
     button.more::after {
     content: "もっと見る";
-    /* transition: .0.25s;
-    -erbkit-transition: .0.25s; */
+    transition: .0.25s;
+    -erbkit-transition: .0.25s;
     }
     
     button.more.on-click::after{
@@ -1009,9 +1027,15 @@ padding-top: 30px;
           content: attr(data-label);
           font-weight: bold;
           position: absolute;
-          left: 10px;
-          color: #FF840D;
-        }
+          left: 0px;
+          color: white;
+          width: 40%;
+          background-color: #ff840d;
+          height: 98%;
+          top: 3%;
+          text-align: center;
+          line-height: 30px;
+      }
         table.ryoukin td:last-child {
           border-bottom: 0;
         }
