@@ -186,7 +186,7 @@ input, select {
 
 
 .menu-content {
-  width: 25%;
+  width: 50%;
   height: 60%;
   position: fixed;
   top: 0;
@@ -211,7 +211,7 @@ input, select {
   padding: 9px 15px 10px 0;
   position: relative;
 }
-.menu-content ul li a::before {
+/* .menu-content ul li a::before {
   content: "";
   width: 7px;
   height: 7px;
@@ -221,10 +221,10 @@ input, select {
   position: absolute;
   right: 11px;
   top: 16px;
-}
+} */
 
 .menu-content {
-  width: 22%;
+  width: 50%;
   height: 70%;
   position: fixed;
   top: 0;
@@ -235,7 +235,7 @@ input, select {
 }
 
 #menu-btn-check:checked ~ .menu-content {
-  left: 80%;/*メニューを画面内へ*/
+  left: 50%;/*メニューを画面内へ*/
 }
 
 #menu-btn-check {
@@ -363,12 +363,15 @@ padding-top: 30px;
 
 /* 思い */
 .omoi{
-  height: 1700px; 
+  height: 900px; 
   background-color: #FFEDBE;
-padding-bottom: 100px;
+  padding-bottom: 100px;
+
 }
 
-
+.omoi.active{
+height: 1800px
+}
 
 .z-index{
 	position: relative;	/* 位置指定 */
@@ -1016,7 +1019,7 @@ padding-top: 30px;
         table.ryoukin td {
           border-bottom: 1px solid #bbb;
           display: block;
-          font-size: .8em;
+          font-size: 20px;
           text-align: right;
           position: relative;
           padding: .625em .625em .625em 4em;
@@ -1029,13 +1032,19 @@ padding-top: 30px;
           position: absolute;
           left: 0px;
           color: white;
-          width: 40%;
+          width: 50%;
           background-color: #ff840d;
           height: 98%;
           top: 3%;
           text-align: center;
           line-height: 30px;
       }
+      
+      .kakaku{
+        font-size: 14px;
+       
+      }
+      
         table.ryoukin td:last-child {
           border-bottom: 0;
         }
@@ -1044,7 +1053,6 @@ padding-top: 30px;
       }
       }
     
-
 
 /* 料金 2*/
 
