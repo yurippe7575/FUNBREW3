@@ -264,8 +264,8 @@ padding-top: 30px;
   content: "";
   margin: 0 auto;
   display: block;
-  width:70%;
-  height: 11px;
+  width:65%;
+  height: 7px;
   border-radius: 5px;
   background: #FE8C1E;
   margin-top: 9px;
@@ -274,7 +274,7 @@ padding-top: 30px;
 
 .title1{
   font-family: HiraKakuProN-W6;
-  font-size: 35px;
+  font-size: 25px;
 
 }
 
@@ -366,7 +366,7 @@ padding-top: 30px;
 /* 思い */
 .omoi{
   width: 100%;
-  height: 900px; 
+  height: 1300px; 
   background-color: #FFEDBE;
   padding-bottom: 50px;
 
@@ -472,7 +472,7 @@ height: 1700px
 
 .tuyomi_title1{
   font-family: HiraKakuProN-W6;
-  font-size: 23px;
+  font-size: 20px;
 
 }
 
@@ -495,8 +495,8 @@ padding-top: 50px;
   content: "";
   margin: 0 auto;
   display: block;
-  width: 90%;
-  height: 6px;
+  width: 80%;
+  height: 4px;
   border-radius: 5px;
   background: #FE8C1E;
  
@@ -577,7 +577,7 @@ padding-top: 30px;
   section {
     max-width: 300px;
     padding-top: 50px;
-    padding-left: 100px;
+    padding-left: 50px;
   }
   a.btn_06-2 {
     display: block;
@@ -727,7 +727,7 @@ padding-top: 30px;
  
         .tigau3_1 {
           font-size: 27px;
-          border-bottom: 5px double #FE8C1E;
+          border-bottom: 5px solid #FE8C1E;
       }
       
         
@@ -735,6 +735,7 @@ padding-top: 30px;
             font-size: 18px;
             line-height: 40px;
               margin-top: 60px;
+              padding-bottom: 40px;
           }
         
 
@@ -805,7 +806,7 @@ padding-top: 30px;
         /* 追加 */
         background-color: #FFF;
         padding:15px 25px 10px; 
-        width: 300px;
+        width: 95%;
         font-size: 18px;
         letter-spacing: 0.75px;
       }
@@ -843,7 +844,7 @@ padding-top: 30px;
         padding:15px 25px 20px; 
         margin-bottom:50px;
         line-height: 2;
-        width: 300px;
+        width: 95%;
        }
       
       
@@ -875,17 +876,17 @@ padding-top: 30px;
       }
       
       .fee_1{
-        width: 93%;
+        width: 70%;
         margin: 0 auto;
         padding-top: 50px;
-        padding-left: 45px;
+        line-height: 40px;
        
       }
 
 
 
       .fee_2{
-        font-size: 25px;
+        font-size: 19px;
         
       }
       
@@ -903,6 +904,7 @@ padding-top: 30px;
         font-size: 16px;
         margin-top: 50px;
         margin-bottom: 40px;
+        line-height: 40px;
 
       }
 
@@ -918,15 +920,30 @@ padding-top: 30px;
         font-size: 16px;
       }
 
+.system_plan{
+  width: 90%;
+  margin: 0 auto;
+}
 
-
-      .system_plan1{
-        font-size: 30px;
-        width: 60%;
-        margin: 0 auto;
+      .system_plan1 h2{
+        font-size: 25px;
+        display: inline-block;
+        margin-top: 80px;
+        margin-bottom: 30px;
         border-bottom: 5px solid #FE8C1E;
-        margin-top: 40px;
-        
+       
+     
+       
+      }
+
+      .system_plan2 h2{
+        font-size: 25px;
+        display: inline-block;
+        margin-top: 80px;
+        margin-bottom: 30px;
+        border-bottom: 5px solid #FE8C1E;
+        width: 80%;
+       margin-left: 50px;
       }
 
 
@@ -995,7 +1012,7 @@ padding-top: 30px;
       .non{
         background:#FFF8DB
       }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 768px) {
         table.ryoukin {
           border: 0;
           width:100%
@@ -1114,7 +1131,7 @@ padding-top: 30px;
       .non{
         background:#FFF8DB
       }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 768px) {
         table.ryoukin1 {
           border: 0;
           width:100%
@@ -1256,7 +1273,7 @@ padding-top: 30px;
         }
 
     
-      @media screen and (max-width: 500px) {
+      @media screen and (max-width: 769px) {
         .wrap_check{
            overflow-x: scroll;
         }

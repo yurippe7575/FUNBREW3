@@ -536,7 +536,7 @@ padding-top: 50px;
   section {
     max-width: 300px;
     padding-top: 50px;
-    padding-left: 100px;
+    padding-left: 50px;
   }
   a.btn_06-2 {
     display: block;
@@ -914,6 +914,16 @@ padding-top: 50px;
         border-bottom: 5px solid #FE8C1E;
       }
 
+      .system_plan1 h2{
+        text-align: center;
+        font-size: 45px;
+        display: inline-block;
+        margin-top: 80px;
+        margin-bottom: 30px;
+        border-bottom: 5px solid #FE8C1E;
+        width: 75%;
+       margin-left: 150px;
+      }
 
 
 
@@ -1138,6 +1148,11 @@ table.ryoukin1 tbody th {
         }
 
     
+        @media screen and (max-width: 700px) {
+          .wrap_check{
+             overflow-x: scroll;
+          }
+        }
       
 
 
