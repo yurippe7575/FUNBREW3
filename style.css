@@ -105,9 +105,17 @@ input, select {
 
 
 
+body {
+  box-sizing : border-box;
+}
 
 /* トップ */
 
+* {
+	float: none;
+	position: static;
+}
+ 
 .heading{
   height: 600px;
   background: #FFEDBE;
@@ -131,7 +139,7 @@ input, select {
 .title{
   font-family: HiraKakuProN-W6;
   font-size: 84px;
-}
+} 
 
 
 
@@ -931,7 +939,7 @@ padding-top: 50px;
         margin: 0 auto;
         margin-top: 60px;
         padding: 0;
-        width: 800px;
+        width: 90%;
         table-layout: fixed;
       }
       
@@ -972,54 +980,10 @@ padding-top: 50px;
       .non{
         background:#FFF8DB
       }
-      @media screen and (max-width: 600px) {
-        table.ryoukin {
-          border: 0;
-          width:100%
-        }
-        table.ryoukin th{
-          background-color: #167F92;
-          display: block;
-          border-right: none;
-        }
-        table.ryoukin thead {
-          border: none;
-          clip: rect(0 0 0 0);
-          height: 1px;
-          margin: -1px;
-          overflow: hidden;
-          padding: 0;
-          position: absolute;
-          width: 1px;
-        }
-        table.ryoukin tr {
-          display: block;
-          margin-bottom: .625em;
-        }
-        table.ryoukin td {
-          border-bottom: 1px solid #bbb;
-          display: block;
-          font-size: .8em;
-          text-align: right;
-          position: relative;
-          padding: .625em .625em .625em 4em;
-          border-right: none;
-        }
-        
-        table.ryoukin td::before {
-          content: attr(data-label);
-          font-weight: bold;
-          position: absolute;
-          left: 10px;
-          color: #FF840D;
-        }
-        table.ryoukin td:last-child {
-          border-bottom: 0;
-        }
-        table.ryoukin tbody th {
-          color: #fff;
-      }
-      }
+     
+
+
+
     
 
 
@@ -1076,54 +1040,8 @@ table.ryoukin1 tbody th {
 .non{
   background:#FFF8DB
 }
-@media screen and (max-width: 600px) {
-  table.ryoukin1 {
-    border: 0;
-    width:100%
-  }
-  table.ryoukin1 th{
-    background-color: #167F92;
-    display: block;
-    border-right: none;
-  }
-  table.ryoukin1 thead {
-    border: none;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-  }
-  table.ryoukin1 tr {
-    display: block;
-    margin-bottom: .625em;
-  }
-  table.ryoukin1 td {
-    border-bottom: 1px solid #bbb;
-    display: block;
-    font-size: .8em;
-    text-align: right;
-    position: relative;
-    padding: .625em .625em .625em 4em;
-    border-right: none;
-  }
-  
-  table.ryoukin1 td::before {
-    content: attr(data-label);
-    font-weight: bold;
-    position: absolute;
-    left: 10px;
-    color: #FF840D;
-  }
-  table.ryoukin1 td:last-child {
-    border-bottom: 0;
-  }
-  table.ryoukin1 tbody th {
-    color: #fff;
-}
-}
+
+
 
 
      
@@ -1220,22 +1138,7 @@ table.ryoukin1 tbody th {
         }
 
     
-      @media screen and (max-width: 500px) {
-        .wrap_check{
-           overflow-x: scroll;
-        }
-      }
-    
-    
-
-      .fee_setumei5{
-        width: 55%;
-        margin: 0 auto;
-        margin-top: 40px;
-        line-height: 50px;
-        font-size: 18px;
-      }
-
+      
 
 
 
